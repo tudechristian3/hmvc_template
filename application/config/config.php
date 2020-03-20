@@ -27,8 +27,7 @@ $config['modules_locations'] = array(
 | a PHP script and you can easily do that on your own.
 |
 */
-global $base_url;
-$config['base_url'] = $base_url;
+$config['base_url'] = 'http://localhost/hmvc/';
 /*
 |--------------------------------------------------------------------------
 | Index File

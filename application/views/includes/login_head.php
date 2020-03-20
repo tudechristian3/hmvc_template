@@ -1,14 +1,32 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title><?php echo ($this->router->fetch_method() == 'index') ? 'Login' : 'Register'; ?></title>
-        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">        
-        <link rel="stylesheet" href="<?php echo base_url('static/css/font-awesome.min.css'); ?>">
-        <link rel="stylesheet" href="<?php echo base_url('static/css/AdminLTE.min.css'); ?>">
-        <link rel="stylesheet" href="<?php echo base_url('static/css/skins/skin-blue.min.css'); ?>">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
-    </head>
-    <body class="hold-transition login-page">
-        <div class="login-box">
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
+    <title>AdminWrap - Easy to Customize Bootstrap 4 Admin Template</title>
+	<link rel="canonical" href="https://www.wrappixel.com/templates/adminwrap/" />
+    <!-- Bootstrap Core CSS -->
+    <link href="<?php echo base_url('assets/')?>node_modules/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- page css -->
+    <link href="<?php echo base_url('assets/')?>css/pages/login-register-lock.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="<?php echo base_url('assets/')?>css/style.css" rel="stylesheet">
+    
+    <!-- You can change the theme colors from here -->
+    <link href="<?php echo base_url('assets/')?>css/colors/default.css" id="theme" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
